@@ -137,9 +137,18 @@ SQL significa “Structured Query Language”, ou “Linguagem de Consulta Estru
 
 ## 2ª Questão
 Anos 70:
-O SQL foi criado por pesquisadores da IBM em San Jose, dentro do projeto System R, que tinha por objetivo demonstrar a viabilidade da implementação do modelo relacional proposto por E. F. Codd. No começo a linguagem original era chamada SEQUEL, acrônimo para "Structured English Query Language" (Linguagem de Consulta Estruturada, em Inglês). Sendo uma das linguagens diferenciadas por manipular e recuperar dados do gerenciamento de banco de dados da IBM.
+O SQL foi criado por pesquisadores da IBM em San Jose, dentro do projeto System R, que tinha por objetivo demonstrar a viabilidade da implementação do modelo relacional proposto por E. F. Codd. No começo a linguagem original era chamada SEQUEL, acrônimo para "Structured English Query Language" (Linguagem de Consulta Estruturada, em Inglês). Sendo uma das linguagens diferenciadas por manipular e recuperar dados do gerenciamento de banco de dados da IBM. No fina dos 70 a chamada atualmente Oracle, sendo inspirada a criar sua própria versão e introduzir a primeira implementação comercial disponível do SQL.
 
+Anos 80:
+Em meados da década de 80, foi publicada a primeira versão padronizada da linguagem SQL, dois instituos trabalharam na sua padronização, o ANSI e o ISO. A Microsoft  também lançou sua primeira versão do SQL Server. Sendo desenvolvida para a plataforma OS/2 juntamente com a Microsoft e a Sybase.
 
+Anos 90:
+Durante os anos 90 a Microsoft iniciou o desenvolvimento de uma versão para a plataforma NT. Enquanto o SQL Server estava sendo desenvolvido a Microsoft decidiu que ele deveria ser uma camada encapsulada sobre o sistema operacional NT. 
+Em 1993 o Windows NT 3.1 e o SQL Server 4.2 para NT foram lançados. A filosofia da Microsoft em combinar um banco de alta performance com uma interface fácil de usar mostrou-se um sucesso. Microsoft rapidamente tornou-se o segundo mais popular vendedor de softwares de bancos de dados relacionais.
+
+Anos 2000:
+Em 2000 a Microsoft lançou o SQL Server 2000. O SQL Server 2000 é o lançamento mais importante do SQL Server até o momento. Essa versão foi construída sobre o framework do SQL Server 7.0. De acordo com o time de desenvolvimento do SQL Server essas mudanças foram desenvolvidas para tornar essa tecnologia mais nova pelos próximos 10 anos.
+2005 - É lançado o SQL Server 2005 (com o codinome Yukon) com grande integração a plataforma .NET. O SQL Server dá mais um passo em direção às grandes plataformas corporativas. A Microsoft exibe alguns grandes casos de sucesso (como a Xerox que consegue realizar até 7.000.000 de transações diárias utilizando o SQL Server 2005 e a Bovespa que é a bolsa de valores do Brasil).
 
 ## 3ª Questão
 Algumas das principais características do SQL	 são: sintaxe de comandos o  mais próximo possível da linguagem da língua inglesa; Trabalha com conjuntos de 
@@ -158,5 +167,3 @@ eficiência. Assim, o usuário encontra todas as informações necessárias dura
 precisa aprender SQL porque a maioria dos sistemas de informação interagem com
 banco de dados e é a língua universal para fazer qualquer coisa em banco de 
 dados relacionais.
-
-
