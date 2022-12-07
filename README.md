@@ -1,3 +1,65 @@
+
+# Codigo da criação da Tabela 
+
+ TB_ALUNO
+```sql
+CREATE table TB_ALUNO
+(
+      codigo_aluno int primary key,
+      nome_aluno varchar(60) not null,
+      ano_nasc int,
+      email varchar(60),
+      sexo varchar
+);
+```
+ TB_CURSO
+````sql
+CREATE table TB_CURSO
+(
+       codigo_curso int primary key,
+       nome_curso varchar(60) not null
+);
+````
+ TB_MATRICULA
+````sql
+CREATE table TB_MATRICULA(
+       codigo_curso int references tb_curso(codigo_curso),
+       codigo_aluno int references tb_aluno(codigo_aluno)
+)
+````
+# Dados inseridos nas tabelas
+
+#TB_ALUNO
+````sql
+select * from tb_aluno
+
+insert into tb_aluno(codigo_aluno, nome_aluno, ano_nasc, email, sexo)
+values ('1', 'Josiel Jardim', 1974, 'josiel@provaSQL.com.br', 'M')
+values ('2', 'Ana Maria', 1980, 'ana@provaSQL.com.br', 'F')
+values ('3', 'João Pedro', 1979, 'joao@provaSQL.com.br', 'M')
+````
+#TB_CURSO
+````sql
+select * from tb_curso
+
+insert into tb_curso(codigo_curso, nome_curso)
+values ('1', 'Medicina')
+values ('2', 'Arquitetura')
+values ('3', 'Filosofia')
+values ('4', 'Informática')
+values ('5', 'Jornalismo')
+````
+#TB_MATRICULA
+````sql
+select * from tb_matricula
+
+insert into tb_matricula(codigo_curso, codigo_aluno)
+values ('1', '1')
+values ('1', '2')
+values ('2', '3')
+values ('5', '3');
+````
+
 # Resolução da Prova Prática Banco de Dados
 
 ## 1ª Questão
