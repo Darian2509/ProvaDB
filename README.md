@@ -92,4 +92,28 @@ from tb_aluno where sexo = 'F'
 
 ![02](https://user-images.githubusercontent.com/105735037/206178459-043f75e4-59a6-447b-a2d6-982c9e8e0cb8.PNG)
 
+## 8ª Questão
+
+```sql
+select tb_aluno.nome_aluno as mulheres_em_medicina
+from tb_aluno
+inner join tb_matricula
+on tb_matricula.codigo_aluno = tb_aluno.codigo_aluno
+and tb_matricula.codigo_curso = 1
+and tb_aluno.sexo = 'F'
+```
+## Resultado esperado
+
+![08](https://user-images.githubusercontent.com/105735037/206179572-c2658809-8900-4fe9-9d2b-10a45170ed99.PNG)
+
+## 9ª Questão
+
+```sql
+select nome_curso
+from tb_curo order by nome_curso asc
+```
+## Resultado esperado
+
+![09](https://user-images.githubusercontent.com/105735037/206180248-ad1a45eb-76a7-422b-94dd-f43bdd801c8f.PNG)
+
 
