@@ -130,3 +130,33 @@ and tb_aluno.sexo = 'M'
 
 ![10](https://user-images.githubusercontent.com/105735037/206182690-2fae6c21-3466-4064-9c4f-7f7eec351357.PNG)
 
+# Questoes teoricas
+
+## 1ª Questão
+SQL significa “Structured Query Language”, ou “Linguagem de Consulta Estruturada”, em português. Resumidamente, é uma linguagem de programação para lidar com banco de dados relacional (baseado em tabelas).
+
+## 2ª Questão
+Anos 70:
+O SQL foi criado por pesquisadores da IBM em San Jose, dentro do projeto System R, que tinha por objetivo demonstrar a viabilidade da implementação do modelo relacional proposto por E. F. Codd. No começo a linguagem original era chamada SEQUEL, acrônimo para "Structured English Query Language" (Linguagem de Consulta Estruturada, em Inglês). Sendo uma das linguagens diferenciadas por manipular e recuperar dados do gerenciamento de banco de dados da IBM.
+
+
+
+## 3ª Questão
+Algumas das principais características do SQL	 são: sintaxe de comandos o  mais próximo possível da linguagem da língua inglesa; Trabalha com conjuntos de 
+egistros, e nao com um registro por vez; Utilizada por utilizadores “normais” tanto também pelos Administradores do Banco de dados.Seus comandos permitem:             Fazer consultas aos dados; Criar, ler, atualizar e  deletar os dados em um banco de dados; Garantir a consistência de dados;  Controlar e auditar o acesso aos         objetos armazenados na base de dados;
+
+## 4ª Questão
+SELECT é lista de campos a serem selecionados e FROM seria a origem dos campos e nome da tabela
+SELECT: Cláusula obrigatória em uma consulta SQL, responsável por listar todas as colunas que serão projetadas na consulta.
+FROM: Nesta Cláusula informamos a fonte das informações, podendo ser
+apenas um ou várias. Também é obrigatória e juntamente com a cláusula SELECT
+formam a base de qualquer consulta SQL.
+
+## 5ª Questão
+O SQL Server atua com sistemas integrados de criptografia, permitindo que a visualização ou alteração das informações sejam feitas apenas pelas pessoas responsáveis, o que garante ainda mais segurança e tranquilidade para os usuários e empresários. Usando um banco de dados, todas as atividades podem ser feitas com mais 
+eficiência. Assim, o usuário encontra todas as informações necessárias durante a busca. Qualquer pessoa que queria trabalhar com desenvolvimento de software
+precisa aprender SQL porque a maioria dos sistemas de informação interagem com
+banco de dados e é a língua universal para fazer qualquer coisa em banco de 
+dados relacionais.
+
+
