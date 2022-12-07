@@ -48,6 +48,48 @@ from tb_aluno where 2022 - ano_nasc >= 18
 
 ![03 1](https://user-images.githubusercontent.com/105735037/206177445-77628b6b-ed61-4856-a2e0-2b5723be1998.PNG)
 
+## 4ª Questão
+Desenvolva um comando SQL que mostre o total de alunos.
+```sql
+select count(codigo_aluno)
+from tb_aluno
+```
+## Resultado esperado
 
+![04 1](https://user-images.githubusercontent.com/105735037/206177821-48dd0729-ae44-426d-b25d-f033a82caccf.PNG)
+
+## 5ª Questão
+Escreva um comando SQL para listar o total de alunos matriculador em cada curso.
+```sql
+select tb_curso.nome_curso,
+codigo_curso + codigo_aluno as numero_alunos
+from tb_curso
+inner join tb_aluno
+on tb_aluno.codigo_aluno = tb_curso.codigo_curso
+```
+## Resultado esperado
+
+![02](https://user-images.githubusercontent.com/105735037/206178109-5af9d43b-94d3-4dfa-ad20-9260bbc439bd.PNG)
+
+## 6ª Questão
+Desenvolva um comando SQL que retorne o nome de todos os alunos maiores que
+18 anos.
+```sql
+select nome_aluno
+from tb_aluno where 2022 - ano_nasc >= 18
+```
+## Resultado esperado
+
+![02](https://user-images.githubusercontent.com/105735037/206178292-be49f604-890b-494c-9a4b-07f093e433c1.PNG)
+
+## 7ª Questão
+
+```sql
+select nome_aluno, sexo
+from tb_aluno where sexo = 'F'
+```
+## Resultado esperado
+
+![02](https://user-images.githubusercontent.com/105735037/206178459-043f75e4-59a6-447b-a2d6-982c9e8e0cb8.PNG)
 
 
