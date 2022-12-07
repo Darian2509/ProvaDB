@@ -130,6 +130,9 @@ and tb_aluno.sexo = 'M'
 
 ![10](https://user-images.githubusercontent.com/105735037/206182690-2fae6c21-3466-4064-9c4f-7f7eec351357.PNG)
 
+
+
+
 # Questoes teoricas
 
 ## 1ª Questão
