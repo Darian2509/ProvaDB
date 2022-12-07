@@ -116,4 +116,17 @@ from tb_curo order by nome_curso asc
 
 ![09](https://user-images.githubusercontent.com/105735037/206180248-ad1a45eb-76a7-422b-94dd-f43bdd801c8f.PNG)
 
+## 10ª Questão
+
+```sql
+select tb_aluno.nome_aluno as homens_em_Jornalismo
+from tb_aluno
+inner join tb_matricula
+on tb_matricula.codigo_aluno = tb_aluno.codigo_aluno
+and tb_matricula.codigo_curso = 5
+and tb_aluno.sexo = 'M'
+```
+## Resultado esperado
+
+![10](https://user-images.githubusercontent.com/105735037/206182690-2fae6c21-3466-4064-9c4f-7f7eec351357.PNG)
 
