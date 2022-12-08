@@ -123,15 +123,12 @@ from tb_aluno
 ## 5ª Questão
 Escreva um comando SQL para listar o total de alunos matriculador em cada curso.
 ```sql
-select tb_curso.nome_curso,
-codigo_curso + codigo_aluno as numero_alunos
-from tb_curso
-inner join tb_aluno
-on tb_aluno.codigo_aluno = tb_curso.codigo_curso
+alter table tb_matricula
+add codigo_matricula serial primary key 
+
 ```
 ## Resultado esperado
 
-![02](https://user-images.githubusercontent.com/105735037/206178109-5af9d43b-94d3-4dfa-ad20-9260bbc439bd.PNG)
 
 ## 6ª Questão
 Desenvolva um comando SQL que retorne o nome de todos os alunos maiores que
